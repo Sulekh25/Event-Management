@@ -1,23 +1,19 @@
 # Event-Management
 
-This repository contains a comprehensive Event Management system built primarily using JavaScript and PHP. The project also involves styling using CSS, SCSS, and Less.
+This repository houses a comprehensive Event Management system primarily built using JavaScript and PHP. The project also incorporates styling with CSS, SCSS, and Less.
 
 ## Table of Contents
-
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
-
-Event-Management is a web application designed to help users manage and organize events efficiently. It provides various features to handle different aspects of event management, making the process seamless and straightforward.
+Event-Management is designed to help users manage and organize events efficiently. It offers various features to streamline the event management process.
 
 ## Features
-
 - User authentication and authorization
 - Event creation, editing, and deletion
 - Event scheduling and calendar integration
@@ -26,7 +22,6 @@ Event-Management is a web application designed to help users manage and organize
 - Responsive design
 
 ## Technologies Used
-
 - **JavaScript**: 66.8%
 - **PHP**: 27.3%
 - **CSS**: 4.9%
@@ -34,10 +29,26 @@ Event-Management is a web application designed to help users manage and organize
 - **SCSS**: 0.4%
 - **Less**: 0.2%
 
+
+## Contributing
+Contributions are welcome! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch:
+    ```sh
+    git checkout -b feature-branch
+    ```
+3. Make your changes and commit them:
+    ```sh
+    git commit -m 'Add new feature'
+    ```
+4. Push to your forked repository:
+    ```sh
+    git push origin feature-branch
+    ```
+5. Create a pull request with a detailed description of your changes.
+
 ## Installation
-
-To set up the project locally, follow these steps:
-
+To set up the project locally:
 1. Clone the repository:
     ```sh
     git clone https://github.com/Sulekh25/Event-Management.git
@@ -53,34 +64,6 @@ To set up the project locally, follow these steps:
 4. Set up the database and configure the environment variables.
 
 ## Usage
-
-To start the application, run the following command:
+To start the application:
 ```sh
 npm start
-
-Open your browser and navigate to http://localhost:3000 to view the application.
-
-Contributing
-Contributions are welcome! Please follow these steps to contribute:
-
-1. Fork the repository.
-
-2. Create a new branch:
-git checkout -b feature-branch
-
-3. Make your changes and commit them:
-
-git commit -m 'Add new feature'
-
-4. Push to your forked repository:
-git push origin feature-branch
-
-5. Create a pull request with a detailed description of your changes.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
-You can now use this content to create your README.md file.
-
-
-
