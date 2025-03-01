@@ -5,7 +5,7 @@
   "main": "slick/slick.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kenwheeler/slick.git"
+    "url": "git+https://github.com/kenwheeler/slick.git"
   },
   "keywords": [
     "carousel",
@@ -46,5 +46,20 @@
   },
   "peerDependencies": {
     "jquery": ">=1.8.0"
-  }
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "jquery": ">=1.8.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "scripts": {
+    "dev": "webpack serve --mode development"
+  },
+  "homepage": "https://github.com/kenwheeler/slick#readme"
 }
